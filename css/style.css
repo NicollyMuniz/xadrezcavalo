@@ -1,0 +1,43 @@
+body{
+    background-color: #c4c2c2;
+}
+table{
+    width: 60%;
+    top: 7%;
+    left: 15%;
+    position: absolute;
+}
+.cavalo{
+    top: 3%;
+    left: 4%;
+    height: 10%;
+    position: absolute;
+}
+#anima-div{
+    width: 15%;
+    position: relative;
+    animation: mov-div 10s infinite;
+}
+@keyframes mov-div{
+    0%{top: 0%; left: 20%;}
+    5%{left: 35%; top: 0%;}
+    10%{top: 114%; left: 35%;}
+    15%{top: 340%; left: 35%;}
+    20%{top: 340%; left: 50%;}
+    25%{top: 340%; left: 77%;}
+    30%{top: 455%; left: 77%;}
+    35%{top: 680%; left: 77%;}
+    40%{top: 680%; left: 91%;}
+    45%{top: 680%; left: 119%;}
+    50%{top: 795%; left: 119%;}
+    55%{top: 680%; left: 119%;}
+    60%{top: 680%; left: 91%;}
+    65%{top: 680%; left: 77%;}
+    70%{top: 455%; left: 77%;}
+    75%{top: 340%; left: 77%;}
+    80%{top: 340%; left: 50%;}
+    85%{top: 340%; left: 35%;}
+    90%{top: 114%; left: 35%;}
+    95%{left: 35%; top: 0%;}
+    100%{top: 0%; left: 20%;}
+}
